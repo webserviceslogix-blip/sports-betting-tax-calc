@@ -32,10 +32,11 @@ jobs:
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
         run: npx tsx scripts/fetch-daily-wins.ts
 
-      - name: Check for changes
+      - name: Check for new or changed files
         id: check_changes
         run: |
-          git diff --quiet src/content/daily-wins/ || echo "changes=true" >> $GITHUB_OUTPUT
+          git add src/content/daily-wins/
+          git diff --cached --quiet src/content/daily-wins/ || echo "changes=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push
         if: steps.check_changes.outputs.changes == 'true'
@@ -43,6 +44,5 @@ jobs:
           git config user.name "BetTaxCalc Bot"
           git config user.email "bot@bettaxcalc.com"
           DATE=$(date -u +"%Y-%m-%d")
-          git add src/content/daily-wins/
           git commit -m "Daily wins: ${DATE}"
           git push
