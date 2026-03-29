@@ -1,0 +1,31 @@
+{
+  "thresholds": {
+    "2026": {
+      "slots": { "amount": 2000, "oddsMultiplier": null, "label": "Slot Machines" },
+      "bingo": { "amount": 2000, "oddsMultiplier": null, "label": "Bingo" },
+      "keno": { "amount": 2000, "oddsMultiplier": null, "label": "Keno" },
+      "poker": { "amount": 5000, "oddsMultiplier": null, "label": "Poker Tournaments" },
+      "sports": { "amount": 2000, "oddsMultiplier": 300, "label": "Sports Betting" },
+      "horseRacing": { "amount": 2000, "oddsMultiplier": 300, "label": "Horse Racing" },
+      "lottery": { "amount": 600, "oddsMultiplier": 300, "label": "Lottery" },
+      "sweepstakes": { "amount": 2000, "oddsMultiplier": null, "label": "Sweepstakes" },
+      "other": { "amount": 2000, "oddsMultiplier": 300, "label": "Other Wagering" }
+    },
+    "2025": {
+      "slots": { "amount": 1200, "oddsMultiplier": null, "label": "Slot Machines" },
+      "bingo": { "amount": 1200, "oddsMultiplier": null, "label": "Bingo" },
+      "keno": { "amount": 1500, "oddsMultiplier": null, "label": "Keno" },
+      "poker": { "amount": 5000, "oddsMultiplier": null, "label": "Poker Tournaments" },
+      "sports": { "amount": 600, "oddsMultiplier": 300, "label": "Sports Betting" },
+      "horseRacing": { "amount": 600, "oddsMultiplier": 300, "label": "Horse Racing" },
+      "lottery": { "amount": 600, "oddsMultiplier": 300, "label": "Lottery" },
+      "sweepstakes": { "amount": 1200, "oddsMultiplier": null, "label": "Sweepstakes" },
+      "other": { "amount": 600, "oddsMultiplier": 300, "label": "Other Wagering" }
+    }
+  },
+  "withholdingRate": 0.24,
+  "withholdingThreshold": 5000,
+  "backupWithholdingRate": 0.24,
+  "notes": "For sports betting: W-2G required when net winnings >= threshold AND winnings >= oddsMultiplier × wager. Both conditions must be met.",
+  "source": "https://www.irs.gov/instructions/iw2g"
+}

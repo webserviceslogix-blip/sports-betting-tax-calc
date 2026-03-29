@@ -1,0 +1,77 @@
+{
+  "slug": "sports-betting-taxes-101",
+  "title": "Sports Betting Taxes 101: Complete 2026 Guide",
+  "metaDescription": "Everything you need to know about sports betting taxes in 2026. Federal rates, state taxes, W-2G forms, loss deductions, OBBBA changes, and how to report DraftKings and FanDuel winnings.",
+  "publishedDate": "2026-01-01",
+  "updatedDate": "2026-03-29",
+  "author": "BetTaxCalc Editorial Team",
+  "reviewedBy": "Tax Professional",
+  "readTime": "15 min",
+  "intro": "Every dollar you win from sports betting is taxable income in the eyes of the IRS. Whether you hit a $5 parlay or a $50,000 futures bet, those winnings must be reported on your federal tax return and, in most states, on your state return as well. This comprehensive guide covers everything you need to know about sports betting taxes in 2026, including the major new changes from the OBBBA (One Big Beautiful Bill Act), the new $2,000 W-2G threshold, and how to report winnings from DraftKings, FanDuel, and other sportsbooks.",
+  "sections": [
+    {
+      "heading": "Are Sports Betting Winnings Taxable?",
+      "answerBlock": "Yes, all sports betting winnings are taxable as ordinary income by the IRS, regardless of the amount. This includes winnings from DraftKings, FanDuel, BetMGM, Caesars, and any other legal or illegal sportsbook. You must report all winnings even if no W-2G form is issued.",
+      "body": "The IRS is clear on this point: all gambling winnings are taxable income and must be reported on your tax return. This includes sports betting, casino games, poker, lottery, horse racing, and any other form of wagering.\n\nMany bettors mistakenly believe they only need to report winnings that trigger a W-2G form. This is incorrect. You are legally required to report every dollar of gambling winnings, whether the sportsbook reports it to the IRS or not. The IRS can access your sportsbook account records during an audit.\n\nGambling winnings are classified as 'other income' on your federal return and reported on Schedule 1 (Form 1040), Line 8b."
+    },
+    {
+      "heading": "How Much Federal Tax Do You Pay on Sports Betting Winnings?",
+      "answerBlock": "Sports betting winnings are taxed at your federal marginal income tax rate, which ranges from 10% to 37% depending on your total income. The IRS withholds 24% at the source on winnings over $5,000 that also meet the 300:1 odds threshold, but your actual tax rate may be higher or lower.",
+      "body": "Gambling winnings are not taxed at a special rate. They are added to your ordinary income and taxed at whatever marginal bracket your total income falls into. For 2026, the seven federal brackets are: 10%, 12%, 22%, 24%, 32%, 35%, and 37%.\n\nFor example, if you earn $60,000 in salary and win $15,000 on sports bets, your total income is $75,000. The $15,000 in winnings is taxed at whatever bracket applies to income between $60,000 and $75,000 — in this case, primarily at 22%.\n\nThe 24% withholding rate is a prepayment, not your final tax rate. If your actual marginal rate is lower than 24%, you will receive a refund for the difference when you file. If your marginal rate is higher (32%, 35%, or 37%), you will owe additional tax when filing."
+    },
+    {
+      "heading": "State Taxes on Sports Betting Winnings",
+      "answerBlock": "In addition to federal tax, most states tax gambling winnings as ordinary income. Rates range from 0% in nine no-income-tax states (Alaska, Florida, Nevada, New Hampshire, South Dakota, Tennessee, Texas, Washington, Wyoming) to over 10% in New York. Four states do not allow loss deductions.",
+      "body": "State taxes add another layer of complexity. Forty-one states plus DC have some form of income tax, and most tax gambling winnings as ordinary income at the same rates as wages.\n\nThe most tax-friendly states for gamblers are the nine with no income tax: Alaska, Florida, Nevada, New Hampshire, South Dakota, Tennessee, Texas, Washington, and Wyoming. If you live in one of these states, your sports betting winnings are only subject to federal tax.\n\nThe least favorable states for bettors are those with high rates AND no loss deductions. Indiana (3.05% with no loss deduction), Massachusetts (5% with no loss deduction), North Carolina (4.5% with no loss deduction), and Wisconsin (up to 7.65% with no loss deduction) all tax your full winnings without allowing you to offset losses.\n\nNew York has the highest potential combined rate, with state rates up to 10.9% plus a New York City surcharge of up to 3.876%, creating an effective state+local rate approaching 14.8%."
+    },
+    {
+      "heading": "What Is a W-2G Form and When Do You Get One?",
+      "answerBlock": "Form W-2G reports certain gambling winnings to the IRS. For sports betting in 2026, a W-2G is required when your net winnings are at least $2,000 AND at least 300 times your wager amount. Both conditions must be met. The $2,000 threshold increased from $600 under prior law.",
+      "body": "A W-2G is the gambling equivalent of a W-2 for wages. When your winnings meet specific thresholds, the sportsbook must issue a W-2G form to both you and the IRS, reporting the amount of the winnings.\n\nThe 2026 thresholds for sports betting require both conditions: net winnings (payout minus wager) of $2,000 or more, AND the total payout is at least 300 times the wager amount. A $10 bet that pays $3,000 (300:1) would trigger a W-2G. A $100 bet that pays $2,500 (25:1) would NOT, because while the $2,400 net win exceeds $2,000, the payout is only 25x the wager, not 300x.\n\nImportant: not receiving a W-2G does NOT mean your winnings are not taxable. All gambling winnings must be reported regardless of whether a form is issued."
+    },
+    {
+      "heading": "Can You Deduct Gambling Losses on Your Taxes?",
+      "answerBlock": "Yes, you can deduct gambling losses but only if you itemize deductions on Schedule A, and only up to the amount of your winnings. Starting in 2026, the OBBBA limits loss deductions to 90% of your total losses. You cannot deduct more than you won, and you cannot use gambling losses to reduce other income.",
+      "body": "Gambling loss deductions are one of the most misunderstood areas of tax law. Here are the key rules for 2026.\n\nYou must itemize: Gambling losses can only be deducted if you itemize deductions on Schedule A. If you take the standard deduction ($16,100 single, $32,200 married filing jointly for 2026), you cannot deduct gambling losses at all.\n\nLosses limited to winnings: You can never deduct more in gambling losses than you report in gambling winnings. Losses cannot create a tax loss or reduce your other income.\n\nThe 90% cap (new for 2026): Under the OBBBA, you can only deduct 90% of your gambling losses. This means even break-even gamblers may owe tax on 'phantom income' equal to 10% of their losses.\n\nState rules vary: Some states do not follow federal loss deduction rules. Indiana, Massachusetts, North Carolina, and Wisconsin do not allow gambling loss deductions at the state level."
+    },
+    {
+      "heading": "How to Report DraftKings and FanDuel Winnings on Your Taxes",
+      "answerBlock": "Report all DraftKings and FanDuel winnings on Schedule 1 (Form 1040), Line 8b as 'other income.' You can access your annual win/loss statement through each platform's account settings. Losses are deducted on Schedule A if you itemize. Both platforms provide tax documents by January 31 for the prior year.",
+      "body": "Both DraftKings and FanDuel provide tax-related documents to help you file. Here is how to access them and where to report the information.\n\nDraftKings: Go to Account > Financial Center > Statements and Transactions. You can access your Win/Loss Statement and any W-2G or 1099 forms here. There is also a Chrome extension that exports your transaction history to CSV or JSON format for record-keeping.\n\nFanDuel: Go to Account > Tax Center. FanDuel provides a 'Player Activity Statement' (note: this is not an official tax document) summarizing your gameplay. W-2G forms are available here if applicable. You can also download your transaction history as a CSV file.\n\nOn your tax return, report total gambling winnings on Schedule 1, Line 8b. If you itemize, report gambling losses on Schedule A (Itemized Deductions). Keep all records, including your sportsbook statements, W-2G forms, and a detailed log of your gambling activity."
+    },
+    {
+      "heading": "The 2026 OBBBA Changes: What Every Bettor Needs to Know",
+      "answerBlock": "The 2026 OBBBA made two major changes: gambling loss deductions are capped at 90% (creating phantom income for break-even bettors), and the W-2G threshold for sports betting increased from $600 to $2,000. Professional gamblers' business expenses are also now subject to the 90% cap.",
+      "body": "The One Big Beautiful Bill Act (OBBBA), signed July 4, 2025, made the most significant changes to gambling taxation in decades.\n\nThe 90% loss deduction cap: Starting January 1, 2026, you can only deduct 90% of your gambling losses against winnings (previously 100%). This creates phantom income for anyone who breaks even or has losses to offset.\n\nThe W-2G threshold increase: For sports betting, the reporting threshold increased from $600 to $2,000 (still requiring the 300:1 odds multiplier). For slots and bingo, it increased from $1,200 to $2,000. Starting 2027, these thresholds adjust for inflation annually.\n\nProfessional gambler impact: The OBBBA reclassifies professional gamblers' business expenses as 165(d) losses, making them subject to the 90% cap. This is a major change for anyone who files gambling on Schedule C.\n\nThree bills to repeal the 90% cap are pending (FAIR BET Act, FULL HOUSE Act), but none have passed as of March 2026."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do I have to pay taxes on small sports betting wins?",
+      "answer": "Yes. All gambling winnings are taxable regardless of the amount. Even a $5 parlay win that pays $50 is technically taxable income that should be reported. While the IRS may not issue a W-2G for small amounts, you are legally required to include all winnings in your total gambling income for the year."
+    },
+    {
+      "question": "What happens if I don't report gambling winnings?",
+      "answer": "Failure to report gambling winnings is tax evasion and can result in penalties, interest, and potentially criminal charges. If a W-2G was issued, the IRS already has a copy and will know you omitted income. Even without a W-2G, the IRS can audit sportsbook records. Penalties include a 75% civil fraud penalty on top of back taxes and interest."
+    },
+    {
+      "question": "Can I net my wins and losses and just report the difference?",
+      "answer": "No. The IRS requires you to report your total winnings as income (Schedule 1, Line 8b) and separately deduct losses (Schedule A) if you itemize. You cannot simply report net gambling results. This is one of the most common errors gamblers make on their tax returns."
+    },
+    {
+      "question": "Do I need to pay estimated quarterly taxes on gambling winnings?",
+      "answer": "If you expect to owe $1,000 or more in tax that is not covered by withholding, you may need to make quarterly estimated tax payments (Form 1040-ES). This is especially relevant for professional gamblers and high-volume bettors whose winnings are not subject to withholding."
+    }
+  ],
+  "relatedGuides": [
+    { "title": "OBBBA Gambling Loss Deduction 2026", "slug": "obbba-gambling-loss-deduction" },
+    { "title": "Phantom Income from Gambling Explained", "slug": "phantom-income-explained" },
+    { "title": "W-2G Threshold Changes for 2026", "slug": "w2g-threshold-changes-2026" }
+  ],
+  "relatedTools": [
+    { "title": "Sports Betting Tax Calculator", "href": "/calculator" },
+    { "title": "Parlay Tax Calculator", "href": "/tools/parlay-tax" },
+    { "title": "W-2G Checker", "href": "/tools/w2g-checker" },
+    { "title": "Phantom Income Calculator", "href": "/tools/phantom-income" }
+  ]
+}
