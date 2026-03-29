@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
+import Logo from './Logo';
 
 const navigation = [
   { name: 'Tax Calculator', href: '/calculator' },
@@ -30,13 +31,8 @@ export default function Header() {
         <div className="flex justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <Link href="/" className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">$</span>
-              </div>
-              <span className="font-bold text-xl text-gray-900">
-                BetTax<span className="text-primary">Calc</span>
-              </span>
+            <Link href="/" aria-label="BetTaxCalc Home">
+              <Logo size="md" />
             </Link>
           </div>
 
