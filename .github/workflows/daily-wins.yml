@@ -46,3 +46,28 @@ jobs:
           DATE=$(date -u +"%Y-%m-%d")
           git commit -m "Daily wins: ${DATE}"
           git push
+
+      - name: Ping Google to recrawl sitemap
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          echo "Pinging Google to recrawl sitemap..."
+          curl -s "https://www.google.com/ping?sitemap=https://bettaxcalc.com/sitemap.xml" -o /dev/null -w "Google ping: HTTP %{http_code}\n"
+          echo "Pinging Bing to recrawl sitemap..."
+          curl -s "https://www.bing.com/ping?sitemap=https://bettaxcalc.com/sitemap.xml" -o /dev/null -w "Bing ping: HTTP %{http_code}\n"
+
+      - name: Submit new page to IndexNow (Bing, Yandex, etc.)
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          DATE=$(date -u +"%Y-%m-%d")
+          echo "Submitting new daily wins page to IndexNow..."
+          curl -s -X POST "https://api.indexnow.org/IndexNow" \
+            -H "Content-Type: application/json" \
+            -d "{
+              \"host\": \"bettaxcalc.com\",
+              \"key\": \"${{ secrets.INDEXNOW_KEY }}\",
+              \"urlList\": [
+                \"https://bettaxcalc.com/daily-wins\",
+                \"https://bettaxcalc.com/daily-wins/${DATE}\",
+                \"https://bettaxcalc.com/sitemap.xml\"
+              ]
+            }" -o /dev/null -w "IndexNow: HTTP %{http_code}\n" || echo "IndexNow submission skipped (no key configured)"
