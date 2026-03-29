@@ -22,18 +22,22 @@ export async function generateMetadata({
   const state = getState(slug);
   if (!state) return { title: 'State Not Found' };
 
-  const rateStr = state.noIncomeTax
-    ? '0% state tax'
+  const rateDisplay = state.noIncomeTax
+    ? 'No State Income Tax'
     : state.flatRate
-    ? `${(state.flatRate * 100).toFixed(2)}% state tax`
-    : 'graduated state tax';
+    ? `${(state.flatRate * 100).toFixed(2)}% Flat Tax Rate`
+    : 'Graduated Tax Rates';
+
+  const legalNote = state.sportsBettingLegal
+    ? 'Legal'
+    : 'Not Yet Legal';
 
   return {
-    title: `${state.name} Sports Betting Tax Calculator 2026 | ${rateStr}`,
-    description: `Calculate your ${state.name} sports betting taxes for 2026. ${state.name} ${rateStr} on gambling winnings. Updated for OBBBA 90% loss deduction cap. Free calculator.`,
+    title: `${state.name} Sports Betting Tax Calculator 2026 | ${rateDisplay}`,
+    description: `Calculate your ${state.name} sports betting taxes for 2026. ${rateDisplay} on gambling winnings. Sports betting is ${legalNote.toLowerCase()} in ${state.name}. Free calculator with OBBBA 90% loss cap.`,
     openGraph: {
       title: `${state.name} Sports Betting Tax Calculator 2026`,
-      description: `Free ${state.name} gambling tax calculator. ${rateStr} + federal tax. Updated for 2026 OBBBA rules.`,
+      description: `Free ${state.name} gambling tax calculator. ${rateDisplay} + federal tax. Updated for 2026 OBBBA rules.`,
     },
   };
 }

@@ -201,6 +201,58 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Tax Guides Section */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-gray-900 mb-2 text-center">
+            2026 Tax Guides
+          </h2>
+          <p className="text-gray-600 text-center mb-10">
+            In-depth guides to navigate the new gambling tax rules
+          </p>
+          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            <Link
+              href="/guides/obbba-gambling-loss-deduction"
+              className="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-primary/30 transition-all group block"
+            >
+              <div className="text-xs font-medium text-amber-600 bg-amber-50 rounded-full px-3 py-1 inline-block mb-3">
+                New for 2026
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-primary transition-colors">
+                OBBBA Gambling Loss Deduction: The 90% Cap Explained
+              </h3>
+              <p className="text-sm text-gray-600">
+                How the One Big Beautiful Bill Act creates &quot;phantom income&quot;
+                for gamblers and what you can do about it.
+              </p>
+            </Link>
+            <Link
+              href="/guides/sports-betting-taxes-101"
+              className="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-primary/30 transition-all group block"
+            >
+              <div className="text-xs font-medium text-blue-600 bg-blue-50 rounded-full px-3 py-1 inline-block mb-3">
+                Complete Guide
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-primary transition-colors">
+                Sports Betting Taxes 101: Everything You Need to Know
+              </h3>
+              <p className="text-sm text-gray-600">
+                Federal rates, state taxes, W-2G forms, loss deductions, and how
+                to report DraftKings and FanDuel winnings.
+              </p>
+            </Link>
+          </div>
+          <div className="text-center mt-6">
+            <Link
+              href="/guides"
+              className="text-primary font-medium hover:underline"
+            >
+              View all guides &rarr;
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

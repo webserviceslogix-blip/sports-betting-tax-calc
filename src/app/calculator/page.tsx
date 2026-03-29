@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import TaxCalculator from '@/components/calculators/TaxCalculator';
 
 export const metadata: Metadata = {
-  title: 'Sports Betting Tax Calculator 2026 | Federal & State Tax Estimator',
+  title: 'Calculate Your Sports Betting Tax | Free 2026 Estimator',
   description:
-    'Free sports betting tax calculator for 2026. Calculate federal and state taxes on gambling winnings with the new OBBBA 90% loss deduction cap. All 50 states, all filing statuses.',
+    'Free sports betting tax calculator for 2026. Enter your income, state, and winnings to instantly see your federal and state tax. Includes OBBBA 90% loss cap and phantom income. All 50 states.',
 };
 
 export default function CalculatorPage() {
@@ -13,7 +13,7 @@ export default function CalculatorPage() {
       {/* Page Header */}
       <div className="mb-8">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
-          Sports Betting Tax Calculator
+          Calculate Your Sports Betting Tax
         </h1>
         <p className="text-lg text-gray-600 max-w-3xl">
           Calculate your federal and state taxes on sports betting and gambling

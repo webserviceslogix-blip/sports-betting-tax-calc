@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | BetTaxCalc',
+  title: 'Privacy Policy',
   description: 'BetTaxCalc privacy policy. Learn how we collect, use, and protect your information.',
 };
 

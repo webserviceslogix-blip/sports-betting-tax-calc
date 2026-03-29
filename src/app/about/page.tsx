@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'About BetTaxCalc | Sports Betting Tax Calculator',
+  title: 'About BetTaxCalc | Our Mission & Data Sources',
   description: 'BetTaxCalc provides free, accurate sports betting tax calculators for all 50 US states. Updated for 2026 OBBBA rules. Learn about our mission and methodology.',
 };
 

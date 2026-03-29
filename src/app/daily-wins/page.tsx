@@ -22,12 +22,41 @@ export default function DailyWinsPage() {
           Updated Daily
         </div>
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
-          Today&apos;s Biggest Sports Betting Wins
+          Today&apos;s Biggest Sports Betting Wins &amp; Tax Impact
         </h1>
         <p className="text-lg text-gray-600 max-w-2xl">
           The biggest sports betting wins reported today — with automatic
           federal and state tax breakdowns. See what the IRS takes from every
           win. Updated every day.
+        </p>
+      </div>
+
+      {/* Static evergreen content for SEO */}
+      <div className="bg-gray-50 rounded-xl border border-gray-200 p-6 mb-8 max-w-4xl">
+        <h2 className="text-lg font-semibold text-gray-900 mb-3">Why We Track Daily Wins</h2>
+        <p className="text-sm text-gray-600 leading-relaxed mb-3">
+          Every sports betting win is taxable income. Whether it&apos;s a $5 parlay
+          that hits for $500 or a long-shot futures bet paying $50,000, the IRS
+          considers it all ordinary income taxed at your federal marginal rate
+          (10-37%) plus your state income tax rate. We track the biggest wins
+          reported each day and calculate the exact tax impact so you can see
+          what winners actually take home.
+        </p>
+        <p className="text-sm text-gray-600 leading-relaxed mb-3">
+          Under the 2026 OBBBA rules, even bettors who break even may owe taxes
+          due to the 90% loss deduction cap creating &quot;phantom income.&quot; Our daily
+          breakdowns show the OBBBA impact on each win, helping bettors understand
+          the real cost of the new tax law.
+        </p>
+        <p className="text-sm text-gray-600 leading-relaxed">
+          Wins are sourced from public reports on Reddit (r/sportsbook,
+          r/sportsbetting), sports media, and sportsbook announcements. Tax
+          calculations use our{' '}
+          <Link href="/calculator" className="text-primary hover:underline">
+            Sports Betting Tax Calculator
+          </Link>{' '}
+          with current 2026 federal brackets and state-specific rates for all 50
+          states.
         </p>
       </div>
 

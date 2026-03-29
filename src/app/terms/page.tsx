@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Terms of Service | BetTaxCalc',
+  title: 'Terms of Service',
   description: 'BetTaxCalc terms of service. Important legal information about using our sports betting tax calculators.',
 };
 
@@ -40,7 +40,7 @@ export default function TermsPage() {
         <p>We may modify these Terms at any time. Changes are effective when posted. Continued use of the Site constitutes acceptance of the modified Terms.</p>
 
         <h2 className="text-xl font-bold text-gray-900">9. Governing Law</h2>
-        <p>These Terms are governed by the laws of the United States. Any disputes shall be resolved in the courts of [your jurisdiction].</p>
+        <p>These Terms are governed by and construed in accordance with the laws of the United States. Any disputes arising from or relating to the use of this Site shall be resolved in accordance with applicable federal and state law.</p>
 
         <h2 className="text-xl font-bold text-gray-900">10. Contact</h2>
         <p>For questions about these Terms, contact us at contact@bettaxcalc.com.</p>
