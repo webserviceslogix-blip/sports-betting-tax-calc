@@ -47,6 +47,9 @@ export const metadata: Metadata = {
     description:
       "Calculate your sports betting taxes for all 50 states. Updated for 2026 OBBBA rules.",
   },
+  alternates: {
+    canonical: './',
+  },
   robots: {
     index: true,
     follow: true,
