@@ -11,8 +11,8 @@ const footerLinks = {
   guides: [
     { name: 'Sports Betting Taxes 101', href: '/guides/sports-betting-taxes-101' },
     { name: 'OBBBA Loss Deduction 2026', href: '/guides/obbba-gambling-loss-deduction' },
-    { name: 'Phantom Income Explained', href: '/guides/phantom-income-explained' },
-    { name: 'W-2G Changes 2026', href: '/guides/w2g-threshold-changes-2026' },
+    { name: 'Phantom Income Calculator', href: '/tools/phantom-income' },
+    { name: 'W-2G Checker', href: '/tools/w2g-checker' },
   ],
   popularStates: [
     { name: 'New York', href: '/states/new-york' },

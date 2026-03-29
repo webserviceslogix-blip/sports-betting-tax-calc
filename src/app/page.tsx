@@ -13,36 +13,42 @@ const features = [
     description:
       'Updated for the One Big Beautiful Bill Act. Calculate "phantom income" from the new 90% loss deduction cap.',
     icon: "!",
+    href: "/tools/phantom-income",
   },
   {
     title: "All 50 States + DC",
     description:
       "State-specific tax rates, brackets, and special rules. Know exactly what you owe in your state.",
     icon: "#",
+    href: "/states",
   },
   {
     title: "Parlay Tax Calculator",
     description:
       "See your after-tax parlay payout instantly. The only calculator that shows what the IRS takes from your parlay.",
     icon: "$",
+    href: "/tools/parlay-tax",
   },
   {
     title: "W-2G Checker",
     description:
       "Will your win trigger a W-2G? Check the new $2,000 threshold and 300:1 rule for 2026.",
     icon: "?",
+    href: "/tools/w2g-checker",
   },
   {
     title: "Daily Big Wins",
     description:
       "See today's biggest sports betting wins with automatic tax breakdowns. Updated daily.",
     icon: "W",
+    href: "/daily-wins",
   },
   {
     title: "2025 vs 2026 Comparison",
     description:
       "Toggle between pre-OBBBA and post-OBBBA rules to see exactly how much more you owe in 2026.",
     icon: "<>",
+    href: "/calculator",
   },
 ];
 
@@ -139,22 +145,23 @@ export default function HomePage() {
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {features.map((feature) => (
-              <div
+              <Link
                 key={feature.title}
-                className="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-primary/30 transition-all"
+                href={feature.href}
+                className="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-primary/30 transition-all group block"
               >
-                <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
                   <span className="text-primary font-bold text-sm">
                     {feature.icon}
                   </span>
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-primary transition-colors">
                   {feature.title}
                 </h3>
                 <p className="text-sm text-gray-600 leading-relaxed">
                   {feature.description}
                 </p>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
