@@ -41,8 +41,8 @@ jobs:
       - name: Commit and push
         if: steps.check_changes.outputs.changes == 'true'
         run: |
-          git config user.name "BetTaxCalc Bot"
-          git config user.email "bot@bettaxcalc.com"
+          git config user.name "webserviceslogix-blip"
+          git config user.email "webserviceslogix@gmail.com"
           DATE=$(date -u +"%Y-%m-%d")
           git commit -m "Daily wins: ${DATE}"
           git push
