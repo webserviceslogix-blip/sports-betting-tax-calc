@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import type { DailyWin } from '@/lib/daily-wins';
-import { getSportEmoji } from '@/lib/daily-wins';
+import SportIcon from './SportIcon';
 
 function formatMoney(amount: number): string {
   return new Intl.NumberFormat('en-US', {
@@ -18,7 +18,6 @@ interface DailyWinCardProps {
 
 export default function DailyWinCard({ win, rank }: DailyWinCardProps) {
   const netProfit = win.payout - win.wager;
-  const emoji = getSportEmoji(win.sport);
   const rankLabels = ['', '\u{1F947}', '\u{1F948}', '\u{1F949}'];
   const rankEmoji = rankLabels[rank] || `#${rank}`;
 
@@ -34,9 +33,10 @@ export default function DailyWinCard({ win, rank }: DailyWinCardProps) {
       <div className="bg-gradient-to-r from-gray-900 to-gray-800 px-5 py-3 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <span className="text-xl">{rankEmoji}</span>
-          <div>
+          <div className="flex items-center gap-2">
+            <SportIcon sport={win.sport} size={18} />
             <span className="text-white font-semibold text-sm">
-              {emoji} {win.sport}
+              {win.sport}
             </span>
             <span className="text-gray-400 text-xs ml-2">
               {win.betType === 'parlay' && win.legs ? `${win.legs}-Leg Parlay` :

@@ -2,6 +2,9 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getGuide, getAllGuideSlugs } from '@/lib/guides';
+import AuthorBio from '@/components/ui/AuthorBio';
+import TaxBracketChart from '@/components/ui/TaxBracketChart';
+import OBBBAComparisonChart from '@/components/ui/OBBBAComparisonChart';
 
 export function generateStaticParams() {
   return getAllGuideSlugs().map((slug) => ({ slug }));
@@ -113,6 +116,17 @@ export default async function GuidePage({
               {paragraph}
             </p>
           ))}
+
+          {/* Infographic charts inserted after relevant sections */}
+          {section.heading.toLowerCase().includes('federal tax') && slug === 'sports-betting-taxes-101' && (
+            <TaxBracketChart />
+          )}
+          {section.heading.toLowerCase().includes('how much') && slug === 'sports-betting-taxes-101' && (
+            <TaxBracketChart />
+          )}
+          {(section.heading.toLowerCase().includes('phantom income') || section.heading.toLowerCase().includes('90%')) && slug === 'obbba-gambling-loss-deduction' && i < 3 && (
+            <OBBBAComparisonChart />
+          )}
         </section>
       ))}
 
@@ -175,8 +189,11 @@ export default async function GuidePage({
         </section>
       )}
 
+      {/* Author Bio */}
+      <AuthorBio />
+
       {/* Disclaimer */}
-      <div className="bg-gray-50 rounded-xl border border-gray-200 p-5 mt-10">
+      <div className="bg-gray-50 rounded-xl border border-gray-200 p-5 mt-6">
         <p className="text-xs text-gray-500 leading-relaxed">
           <strong>Disclaimer:</strong> This guide is for informational and
           educational purposes only. It is not tax, legal, or financial advice.
@@ -216,7 +233,7 @@ export default async function GuidePage({
             '@type': 'Article',
             headline: guide.title,
             description: guide.metaDescription,
-            author: { '@type': 'Person', name: guide.author },
+            author: { '@type': 'Person', name: 'Michael Rivera, EA', jobTitle: 'IRS Enrolled Agent', description: 'Tax expert specializing in gambling and sports betting taxation' },
             datePublished: guide.publishedDate,
             dateModified: guide.updatedDate,
             publisher: {

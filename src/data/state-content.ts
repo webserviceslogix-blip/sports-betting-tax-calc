@@ -165,6 +165,58 @@ const stateContent: Record<string, StateContent> = {
   },
 };
 
+// State neighbor map for cross-linking
+const stateNeighbors: Record<string, { state: string; slug: string }[]> = {
+  'AL': [{ state: 'Florida', slug: 'florida' }, { state: 'Georgia', slug: 'georgia' }, { state: 'Tennessee', slug: 'tennessee' }],
+  'AK': [{ state: 'Washington', slug: 'washington' }],
+  'AZ': [{ state: 'Nevada', slug: 'nevada' }, { state: 'Colorado', slug: 'colorado' }, { state: 'California', slug: 'california' }],
+  'AR': [{ state: 'Tennessee', slug: 'tennessee' }, { state: 'Missouri', slug: 'missouri' }, { state: 'Louisiana', slug: 'louisiana' }],
+  'CA': [{ state: 'Nevada', slug: 'nevada' }, { state: 'Arizona', slug: 'arizona' }, { state: 'Oregon', slug: 'oregon' }],
+  'CO': [{ state: 'Arizona', slug: 'arizona' }, { state: 'Nevada', slug: 'nevada' }, { state: 'Kansas', slug: 'kansas' }],
+  'CT': [{ state: 'New York', slug: 'new-york' }, { state: 'New Jersey', slug: 'new-jersey' }, { state: 'Massachusetts', slug: 'massachusetts' }],
+  'DE': [{ state: 'Pennsylvania', slug: 'pennsylvania' }, { state: 'New Jersey', slug: 'new-jersey' }, { state: 'Maryland', slug: 'maryland' }],
+  'DC': [{ state: 'Maryland', slug: 'maryland' }, { state: 'Virginia', slug: 'virginia' }],
+  'FL': [{ state: 'Georgia', slug: 'georgia' }, { state: 'Alabama', slug: 'alabama' }, { state: 'Tennessee', slug: 'tennessee' }],
+  'GA': [{ state: 'Florida', slug: 'florida' }, { state: 'Tennessee', slug: 'tennessee' }, { state: 'North Carolina', slug: 'north-carolina' }],
+  'HI': [{ state: 'California', slug: 'california' }, { state: 'Nevada', slug: 'nevada' }],
+  'ID': [{ state: 'Montana', slug: 'montana' }, { state: 'Washington', slug: 'washington' }, { state: 'Oregon', slug: 'oregon' }],
+  'IL': [{ state: 'Indiana', slug: 'indiana' }, { state: 'Michigan', slug: 'michigan' }, { state: 'Iowa', slug: 'iowa' }],
+  'IN': [{ state: 'Illinois', slug: 'illinois' }, { state: 'Ohio', slug: 'ohio' }, { state: 'Michigan', slug: 'michigan' }],
+  'IA': [{ state: 'Illinois', slug: 'illinois' }, { state: 'Nebraska', slug: 'nebraska' }, { state: 'Minnesota', slug: 'minnesota' }],
+  'KS': [{ state: 'Missouri', slug: 'missouri' }, { state: 'Colorado', slug: 'colorado' }, { state: 'Nebraska', slug: 'nebraska' }],
+  'KY': [{ state: 'Ohio', slug: 'ohio' }, { state: 'Indiana', slug: 'indiana' }, { state: 'Tennessee', slug: 'tennessee' }],
+  'LA': [{ state: 'Texas', slug: 'texas' }, { state: 'Mississippi', slug: 'mississippi' }, { state: 'Arkansas', slug: 'arkansas' }],
+  'ME': [{ state: 'New Hampshire', slug: 'new-hampshire' }, { state: 'Massachusetts', slug: 'massachusetts' }, { state: 'Vermont', slug: 'vermont' }],
+  'MD': [{ state: 'Virginia', slug: 'virginia' }, { state: 'Pennsylvania', slug: 'pennsylvania' }, { state: 'Delaware', slug: 'delaware' }],
+  'MA': [{ state: 'Connecticut', slug: 'connecticut' }, { state: 'New York', slug: 'new-york' }, { state: 'New Hampshire', slug: 'new-hampshire' }],
+  'MI': [{ state: 'Ohio', slug: 'ohio' }, { state: 'Indiana', slug: 'indiana' }, { state: 'Illinois', slug: 'illinois' }],
+  'MN': [{ state: 'Iowa', slug: 'iowa' }, { state: 'Wisconsin', slug: 'wisconsin' }, { state: 'North Dakota', slug: 'north-dakota' }],
+  'MS': [{ state: 'Louisiana', slug: 'louisiana' }, { state: 'Alabama', slug: 'alabama' }, { state: 'Tennessee', slug: 'tennessee' }],
+  'MO': [{ state: 'Kansas', slug: 'kansas' }, { state: 'Illinois', slug: 'illinois' }, { state: 'Iowa', slug: 'iowa' }],
+  'MT': [{ state: 'Wyoming', slug: 'wyoming' }, { state: 'North Dakota', slug: 'north-dakota' }, { state: 'Idaho', slug: 'idaho' }],
+  'NE': [{ state: 'Iowa', slug: 'iowa' }, { state: 'Kansas', slug: 'kansas' }, { state: 'Colorado', slug: 'colorado' }],
+  'NV': [{ state: 'California', slug: 'california' }, { state: 'Arizona', slug: 'arizona' }, { state: 'Utah', slug: 'utah' }],
+  'NH': [{ state: 'Massachusetts', slug: 'massachusetts' }, { state: 'Vermont', slug: 'vermont' }, { state: 'Maine', slug: 'maine' }],
+  'NM': [{ state: 'Arizona', slug: 'arizona' }, { state: 'Colorado', slug: 'colorado' }, { state: 'Texas', slug: 'texas' }],
+  'NC': [{ state: 'Virginia', slug: 'virginia' }, { state: 'Tennessee', slug: 'tennessee' }, { state: 'South Carolina', slug: 'south-carolina' }],
+  'ND': [{ state: 'Montana', slug: 'montana' }, { state: 'Minnesota', slug: 'minnesota' }, { state: 'South Dakota', slug: 'south-dakota' }],
+  'OH': [{ state: 'Pennsylvania', slug: 'pennsylvania' }, { state: 'Michigan', slug: 'michigan' }, { state: 'Indiana', slug: 'indiana' }],
+  'OK': [{ state: 'Texas', slug: 'texas' }, { state: 'Kansas', slug: 'kansas' }, { state: 'Arkansas', slug: 'arkansas' }],
+  'OR': [{ state: 'Washington', slug: 'washington' }, { state: 'California', slug: 'california' }, { state: 'Nevada', slug: 'nevada' }],
+  'RI': [{ state: 'Connecticut', slug: 'connecticut' }, { state: 'Massachusetts', slug: 'massachusetts' }],
+  'SC': [{ state: 'North Carolina', slug: 'north-carolina' }, { state: 'Georgia', slug: 'georgia' }],
+  'SD': [{ state: 'North Dakota', slug: 'north-dakota' }, { state: 'Wyoming', slug: 'wyoming' }, { state: 'Nebraska', slug: 'nebraska' }],
+  'TN': [{ state: 'Kentucky', slug: 'kentucky' }, { state: 'North Carolina', slug: 'north-carolina' }, { state: 'Virginia', slug: 'virginia' }],
+  'TX': [{ state: 'Louisiana', slug: 'louisiana' }, { state: 'Oklahoma', slug: 'oklahoma' }, { state: 'New Mexico', slug: 'new-mexico' }],
+  'UT': [{ state: 'Nevada', slug: 'nevada' }, { state: 'Colorado', slug: 'colorado' }, { state: 'Arizona', slug: 'arizona' }],
+  'VT': [{ state: 'New Hampshire', slug: 'new-hampshire' }, { state: 'New York', slug: 'new-york' }, { state: 'Massachusetts', slug: 'massachusetts' }],
+  'VA': [{ state: 'Maryland', slug: 'maryland' }, { state: 'North Carolina', slug: 'north-carolina' }, { state: 'West Virginia', slug: 'west-virginia' }],
+  'WA': [{ state: 'Oregon', slug: 'oregon' }, { state: 'Idaho', slug: 'idaho' }, { state: 'Montana', slug: 'montana' }],
+  'WV': [{ state: 'Virginia', slug: 'virginia' }, { state: 'Pennsylvania', slug: 'pennsylvania' }, { state: 'Ohio', slug: 'ohio' }],
+  'WI': [{ state: 'Michigan', slug: 'michigan' }, { state: 'Illinois', slug: 'illinois' }, { state: 'Minnesota', slug: 'minnesota' }],
+  'WY': [{ state: 'Montana', slug: 'montana' }, { state: 'Colorado', slug: 'colorado' }, { state: 'South Dakota', slug: 'south-dakota' }],
+};
+
 // Generate default content for states without custom editorial
 function generateDefaultContent(state: {
   code: string;
@@ -250,7 +302,10 @@ function generateDefaultContent(state: {
       ? `${state.name} follows federal rules for gambling loss deductions. The 2026 OBBBA 90% cap applies when itemizing.`
       : `${state.name} does NOT allow gambling loss deductions at the state level. You pay state tax on full winnings regardless of losses.`,
     recentChanges: state.notes,
-    neighborComparison: [],
+    neighborComparison: (stateNeighbors[state.code] || []).map(n => ({
+      ...n,
+      note: `Compare ${state.name} gambling tax rates with ${n.state}`,
+    })),
     faq,
     workedExample: {
       scenario: `A single filer in ${state.name} earning $60,000 with $10,000 in sports betting winnings and no losses`,

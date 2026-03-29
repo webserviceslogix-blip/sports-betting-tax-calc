@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getAllStates } from '@/lib/tax-calculator';
+import USMapGrid from '@/components/ui/USMapGrid';
 
 export const metadata: Metadata = {
   title: 'Sports Betting Tax by State 2026 | All 50 States + DC',
@@ -51,6 +52,17 @@ export default function StatesHubPage() {
           <div className="text-sm text-red-600 mt-1">No Loss Deduction</div>
         </div>
       </div>
+
+      {/* Interactive Map */}
+      <USMapGrid states={states.map(s => ({
+        code: s.code,
+        name: s.name,
+        slug: s.slug,
+        noIncomeTax: s.noIncomeTax,
+        sportsBettingLegal: s.sportsBettingLegal,
+        lossDeductionAllowed: s.lossDeductionAllowed,
+        flatRate: s.flatRate,
+      }))} />
 
       {/* Complete State Grid */}
       <section className="mb-12">

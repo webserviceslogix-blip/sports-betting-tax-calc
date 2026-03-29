@@ -314,6 +314,57 @@ export default function HomePage() {
                 inflation.
               </p>
             </div>
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                Do I have to report small sports betting wins?
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                Yes. All gambling winnings are taxable regardless of the amount.
+                Even a $5 parlay that pays $50 is taxable income. While the
+                sportsbook may not issue a W-2G for small amounts, you are
+                legally required to report all winnings on your tax return as
+                &quot;other income&quot; on Schedule 1.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                How do I report DraftKings or FanDuel winnings on my taxes?
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                Report total gambling winnings on Schedule 1 (Form 1040), Line
+                8b as &quot;other income.&quot; Both DraftKings and FanDuel provide
+                year-end statements in your account settings. If you itemize
+                deductions, you can deduct losses on Schedule A (up to 90% under
+                2026 OBBBA rules).
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                What is the OBBBA 90% loss deduction cap?
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                The One Big Beautiful Bill Act (signed July 4, 2025) caps
+                gambling loss deductions at 90% starting January 1, 2026.
+                Previously you could deduct 100% of losses up to your winnings.
+                Now 10% of your losses are non-deductible, creating taxable
+                &quot;phantom income&quot; even if you break even.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                Which states have no tax on gambling winnings?
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                Nine states have no state income tax on gambling winnings:
+                Alaska, Florida, Nevada, New Hampshire, South Dakota, Tennessee,
+                Texas, Washington, and Wyoming. In these states, you only owe
+                federal tax on your winnings. Use our{" "}
+                <Link href="/tools/state-comparison" className="text-primary hover:underline">
+                  state comparison tool
+                </Link>{" "}
+                to see the difference.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -348,6 +399,38 @@ export default function HomePage() {
                 acceptedAnswer: {
                   "@type": "Answer",
                   text: "For 2026, a W-2G is required when sports betting winnings are at least $2,000 AND at least 300 times the wager amount. This increased from $600 under prior rules.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Do I have to report small sports betting wins?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes. All gambling winnings are taxable regardless of the amount. Even a $5 parlay that pays $50 is taxable income. You are legally required to report all winnings on your tax return as other income on Schedule 1.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How do I report DraftKings or FanDuel winnings on my taxes?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Report total gambling winnings on Schedule 1 (Form 1040), Line 8b as other income. Both DraftKings and FanDuel provide year-end statements. If you itemize, you can deduct losses on Schedule A (up to 90% under 2026 OBBBA rules).",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What is the OBBBA 90% loss deduction cap?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The One Big Beautiful Bill Act (signed July 4, 2025) caps gambling loss deductions at 90% starting January 1, 2026. Previously you could deduct 100% of losses. Now 10% is non-deductible, creating phantom income even if you break even.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Which states have no tax on gambling winnings?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Nine states have no state income tax on gambling winnings: Alaska, Florida, Nevada, New Hampshire, South Dakota, Tennessee, Texas, Washington, and Wyoming. In these states, you only owe federal tax.",
                 },
               },
             ],

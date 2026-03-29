@@ -40,6 +40,14 @@ export const metadata: Metadata = {
     title: "Sports Betting Tax Calculator 2026 | Federal & State Tax Estimator",
     description:
       "Free sports betting tax calculator for 2026. Calculate federal and state taxes including the new OBBBA 90% loss deduction cap.",
+    images: [
+      {
+        url: "/og-image.svg",
+        width: 1200,
+        height: 630,
+        alt: "BetTaxCalc — Sports Betting Tax Calculator 2026",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
