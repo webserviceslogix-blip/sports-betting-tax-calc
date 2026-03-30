@@ -2,7 +2,7 @@
   "date": "2026-03-30",
   "wins": [
     {
-      "id": "win-2026-03-30-i6exh",
+      "id": "win-2026-03-30-ezzwr",
       "sport": "UFC",
       "betType": "sgp",
       "wager": 200,
@@ -20,7 +20,7 @@
       "phantomIncomeNote": "If this bettor had $37,400 in losses elsewhere, they'd still owe $898 in 'phantom income' tax under 2026 OBBBA rules."
     },
     {
-      "id": "win-2026-03-30-vm4gy",
+      "id": "win-2026-03-30-ahiqd",
       "sport": "MLB",
       "betType": "parlay",
       "wager": 25,
@@ -38,7 +38,7 @@
       "phantomIncomeNote": "If this bettor had $25,100 in losses elsewhere, they'd still owe $602 in 'phantom income' tax under 2026 OBBBA rules."
     },
     {
-      "id": "win-2026-03-30-op6ao",
+      "id": "win-2026-03-30-mnmmb",
       "sport": "March Madness",
       "betType": "futures",
       "wager": 50,
@@ -55,7 +55,7 @@
       "phantomIncomeNote": "If this bettor had $6,700 in losses elsewhere, they'd still owe $161 in 'phantom income' tax under 2026 OBBBA rules."
     },
     {
-      "id": "win-2026-03-30-z4107",
+      "id": "win-2026-03-30-byfji",
       "sport": "NFL",
       "betType": "parlay",
       "wager": 5,
@@ -73,7 +73,7 @@
       "phantomIncomeNote": null
     },
     {
-      "id": "win-2026-03-30-rkd32",
+      "id": "win-2026-03-30-60pqj",
       "sport": "NHL",
       "betType": "straight",
       "wager": 15,
@@ -90,7 +90,7 @@
       "phantomIncomeNote": null
     }
   ],
-  "generatedAt": "2026-03-29T17:45:29.171Z",
+  "generatedAt": "2026-03-30T11:57:25.535Z",
   "totalPayouts": 72980,
   "totalTaxes": 22544
 }
