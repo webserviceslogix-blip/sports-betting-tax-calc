@@ -118,13 +118,10 @@ export default async function GuidePage({
           ))}
 
           {/* Infographic charts inserted after relevant sections */}
-          {section.heading.toLowerCase().includes('federal tax') && slug === 'sports-betting-taxes-101' && (
+          {section.heading.toLowerCase().includes('how much federal tax') && slug === 'sports-betting-taxes-101' && (
             <TaxBracketChart />
           )}
-          {section.heading.toLowerCase().includes('how much') && slug === 'sports-betting-taxes-101' && (
-            <TaxBracketChart />
-          )}
-          {(section.heading.toLowerCase().includes('phantom income') || section.heading.toLowerCase().includes('90%')) && slug === 'obbba-gambling-loss-deduction' && i < 3 && (
+          {section.heading.toLowerCase().includes('how does phantom income') && slug === 'obbba-gambling-loss-deduction' && (
             <OBBBAComparisonChart />
           )}
         </section>

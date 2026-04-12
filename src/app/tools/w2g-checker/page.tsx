@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import W2GChecker from '@/components/calculators/W2GChecker';
+import RelatedTools from '@/components/ui/RelatedTools';
 
 export const metadata: Metadata = {
   title: 'W-2G Checker 2026 | Will Your Win Trigger a W-2G Form?',
@@ -46,6 +47,8 @@ export default function W2GCheckerPage() {
           threshold will adjust annually for inflation.
         </p>
       </div>
+
+      <RelatedTools currentPath="/tools/w2g-checker" />
     </div>
   );
 }

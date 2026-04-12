@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import PhantomIncomeCalc from '@/components/calculators/PhantomIncomeCalc';
+import RelatedTools from '@/components/ui/RelatedTools';
 
 export const metadata: Metadata = {
   title: 'Phantom Income Calculator 2026 | OBBBA 90% Loss Deduction Cap',
@@ -51,6 +52,8 @@ export default function PhantomIncomePage() {
           165(d) losses subject to the same 90% cap.
         </p>
       </div>
+
+      <RelatedTools currentPath="/tools/phantom-income" />
     </div>
   );
 }

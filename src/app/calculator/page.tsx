@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import TaxCalculator from '@/components/calculators/TaxCalculator';
+import RelatedTools from '@/components/ui/RelatedTools';
+import AuthorBio from '@/components/ui/AuthorBio';
 
 export const metadata: Metadata = {
   title: 'Calculate Your Sports Betting Tax | Free 2026 Estimator',
@@ -58,6 +60,16 @@ export default function CalculatorPage() {
           Massachusetts, North Carolina, Wisconsin) do not allow gambling loss
           deductions at the state level regardless of federal rules.
         </p>
+      </div>
+
+      {/* Author Bio */}
+      <div className="max-w-3xl mt-8">
+        <AuthorBio />
+      </div>
+
+      {/* Related Tools */}
+      <div className="max-w-7xl">
+        <RelatedTools currentPath="/calculator" />
       </div>
 
       {/* WebApplication Schema */}

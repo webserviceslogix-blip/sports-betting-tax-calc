@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import StateComparison from '@/components/calculators/StateComparison';
+import RelatedTools from '@/components/ui/RelatedTools';
 
 export const metadata: Metadata = {
   title: 'State Tax Comparison Tool | Compare Sports Betting Taxes Across States',
@@ -48,6 +49,8 @@ export default function StateComparisonPage() {
           in that state. Consult a tax professional for multi-state situations.
         </p>
       </div>
+
+      <RelatedTools currentPath="/tools/state-comparison" />
     </div>
   );
 }

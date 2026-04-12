@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import ParlayTaxCalc from '@/components/calculators/ParlayTaxCalc';
+import RelatedTools from '@/components/ui/RelatedTools';
 
 export const metadata: Metadata = {
   title: 'Parlay Tax Calculator 2026 | After-Tax Parlay Payout Estimator',
@@ -45,6 +46,8 @@ export default function ParlayTaxPage() {
           for the year, not individual bets.
         </p>
       </div>
+
+      <RelatedTools currentPath="/tools/parlay-tax" />
     </div>
   );
 }
