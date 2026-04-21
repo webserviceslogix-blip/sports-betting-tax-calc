@@ -1,0 +1,61 @@
+{
+  "date": "2026-04-21",
+  "wins": [
+    {
+      "id": "win-2026-04-21-b9th4",
+      "sport": "MLB",
+      "betType": "sgp",
+      "wager": 25,
+      "payout": 11375,
+      "odds": "+45400",
+      "legs": 4,
+      "description": "4-leg SGP on Dodgers vs Padres — $25 turned into $11,375",
+      "source": "reddit",
+      "sourceUrl": "https://reddit.com/r/sportsbetting",
+      "stateCode": "CO",
+      "federalTax": 2724,
+      "stateTax": 499,
+      "totalTax": 3223,
+      "netTakeHome": 8127,
+      "phantomIncomeNote": "If this bettor had $11,350 in losses elsewhere, they'd still owe $272 in 'phantom income' tax under 2026 OBBBA rules."
+    },
+    {
+      "id": "win-2026-04-21-e8bxu",
+      "sport": "NFL",
+      "betType": "parlay",
+      "wager": 5,
+      "payout": 2575,
+      "odds": "+51400",
+      "legs": 11,
+      "description": "11-leg parlay on Chiefs vs Bills — $5 turned into $2,575",
+      "source": "reddit",
+      "sourceUrl": "https://reddit.com/r/sportsbetting",
+      "stateCode": "MI",
+      "federalTax": 617,
+      "stateTax": 109,
+      "totalTax": 726,
+      "netTakeHome": 1844,
+      "phantomIncomeNote": null
+    },
+    {
+      "id": "win-2026-04-21-2jamv",
+      "sport": "NHL",
+      "betType": "futures",
+      "wager": 15,
+      "payout": 2550,
+      "odds": "+16900",
+      "description": "futures bet on Knights vs Stars — $15 turned into $2,550",
+      "source": "twitter",
+      "sourceUrl": "https://x.com/sportsbetting",
+      "stateCode": "NY",
+      "federalTax": 608,
+      "stateTax": 174,
+      "totalTax": 782,
+      "netTakeHome": 1753,
+      "phantomIncomeNote": null
+    }
+  ],
+  "generatedAt": "2026-04-21T12:03:21.720Z",
+  "totalPayouts": 16500,
+  "totalTaxes": 4731
+}
