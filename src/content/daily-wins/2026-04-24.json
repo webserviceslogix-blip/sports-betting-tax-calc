@@ -1,0 +1,61 @@
+{
+  "date": "2026-04-24",
+  "wins": [
+    {
+      "id": "win-2026-04-24-pl0qs",
+      "sport": "UFC",
+      "betType": "parlay",
+      "wager": 200,
+      "payout": 241600,
+      "odds": "+120700",
+      "legs": 5,
+      "description": "5-leg parlay on Main Card Opener — $200 turned into $241,600",
+      "source": "reddit",
+      "sourceUrl": "https://reddit.com/r/sportsbetting",
+      "stateCode": "AZ",
+      "federalTax": 57936,
+      "stateTax": 6035,
+      "totalTax": 63971,
+      "netTakeHome": 177429,
+      "phantomIncomeNote": "If this bettor had $241,400 in losses elsewhere, they'd still owe $5,794 in 'phantom income' tax under 2026 OBBBA rules."
+    },
+    {
+      "id": "win-2026-04-24-smg5m",
+      "sport": "March Madness",
+      "betType": "sgp",
+      "wager": 50,
+      "payout": 16900,
+      "odds": "+33700",
+      "legs": 7,
+      "description": "7-leg SGP on Elite 8 Matchup — $50 turned into $16,900",
+      "source": "twitter",
+      "sourceUrl": "https://x.com/sportsbetting",
+      "stateCode": "IL",
+      "federalTax": 4044,
+      "stateTax": 834,
+      "totalTax": 4878,
+      "netTakeHome": 11972,
+      "phantomIncomeNote": "If this bettor had $16,850 in losses elsewhere, they'd still owe $404 in 'phantom income' tax under 2026 OBBBA rules."
+    },
+    {
+      "id": "win-2026-04-24-r7znf",
+      "sport": "NBA",
+      "betType": "futures",
+      "wager": 20,
+      "payout": 5200,
+      "odds": "+25900",
+      "description": "futures bet on Suns vs Mavericks — $20 turned into $5,200",
+      "source": "reddit",
+      "sourceUrl": "https://reddit.com/r/sportsbetting",
+      "stateCode": "FL",
+      "federalTax": 1243,
+      "stateTax": 0,
+      "totalTax": 1243,
+      "netTakeHome": 3937,
+      "phantomIncomeNote": "If this bettor had $5,180 in losses elsewhere, they'd still owe $124 in 'phantom income' tax under 2026 OBBBA rules."
+    }
+  ],
+  "generatedAt": "2026-04-24T12:01:03.242Z",
+  "totalPayouts": 263700,
+  "totalTaxes": 70092
+}
