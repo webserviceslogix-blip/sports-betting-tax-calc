@@ -1,0 +1,60 @@
+{
+  "date": "2026-05-17",
+  "wins": [
+    {
+      "id": "win-2026-05-17-csi81",
+      "sport": "March Madness",
+      "betType": "parlay",
+      "wager": 15,
+      "payout": 18120,
+      "odds": "+120700",
+      "legs": 10,
+      "description": "10-leg parlay on Sweet 16 Game 1 — $15 turned into $18,120",
+      "source": "twitter",
+      "sourceUrl": "https://x.com/sportsbetting",
+      "stateCode": "NJ",
+      "federalTax": 4345,
+      "stateTax": 1153,
+      "totalTax": 5498,
+      "netTakeHome": 12607,
+      "phantomIncomeNote": "If this bettor had $18,105 in losses elsewhere, they'd still owe $435 in 'phantom income' tax under 2026 OBBBA rules."
+    },
+    {
+      "id": "win-2026-05-17-ev6be",
+      "sport": "UFC",
+      "betType": "futures",
+      "wager": 25,
+      "payout": 5000,
+      "odds": "+19900",
+      "description": "futures bet on Prelim Headliner — $25 turned into $5,000",
+      "source": "reddit",
+      "sourceUrl": "https://reddit.com/r/sportsbetting",
+      "stateCode": "NV",
+      "federalTax": 1194,
+      "stateTax": 0,
+      "totalTax": 1194,
+      "netTakeHome": 3781,
+      "phantomIncomeNote": null
+    },
+    {
+      "id": "win-2026-05-17-j4aqu",
+      "sport": "NBA",
+      "betType": "straight",
+      "wager": 5,
+      "payout": 10,
+      "odds": "+100",
+      "description": "moneyline bet on Bucks vs 76ers — $5 turned into $10",
+      "source": "reddit",
+      "sourceUrl": "https://reddit.com/r/sportsbetting",
+      "stateCode": "CO",
+      "federalTax": 1,
+      "stateTax": 0,
+      "totalTax": 1,
+      "netTakeHome": 4,
+      "phantomIncomeNote": null
+    }
+  ],
+  "generatedAt": "2026-05-17T12:01:48.351Z",
+  "totalPayouts": 23130,
+  "totalTaxes": 6693
+}
