@@ -1,0 +1,61 @@
+{
+  "date": "2026-05-23",
+  "wins": [
+    {
+      "id": "win-2026-05-23-ttzxb",
+      "sport": "March Madness",
+      "betType": "sgp",
+      "wager": 500,
+      "payout": 259000,
+      "odds": "+51700",
+      "legs": 7,
+      "description": "7-leg SGP on Elite 8 Matchup — $500 turned into $259,000",
+      "source": "twitter",
+      "sourceUrl": "https://x.com/sportsbetting",
+      "stateCode": "CO",
+      "federalTax": 62040,
+      "stateTax": 11374,
+      "totalTax": 73414,
+      "netTakeHome": 185086,
+      "phantomIncomeNote": "If this bettor had $258,500 in losses elsewhere, they'd still owe $6,204 in 'phantom income' tax under 2026 OBBBA rules."
+    },
+    {
+      "id": "win-2026-05-23-x9no9",
+      "sport": "UFC",
+      "betType": "parlay",
+      "wager": 10,
+      "payout": 18380,
+      "odds": "+183700",
+      "legs": 7,
+      "description": "7-leg parlay on Main Card Opener — $10 turned into $18,380",
+      "source": "reddit",
+      "sourceUrl": "https://reddit.com/r/sportsbetting",
+      "stateCode": "NJ",
+      "federalTax": 4409,
+      "stateTax": 1170,
+      "totalTax": 5579,
+      "netTakeHome": 12791,
+      "phantomIncomeNote": "If this bettor had $18,370 in losses elsewhere, they'd still owe $441 in 'phantom income' tax under 2026 OBBBA rules."
+    },
+    {
+      "id": "win-2026-05-23-ux4g2",
+      "sport": "NBA",
+      "betType": "futures",
+      "wager": 100,
+      "payout": 11000,
+      "odds": "+10900",
+      "description": "futures bet on Suns vs Mavericks — $100 turned into $11,000",
+      "source": "reddit",
+      "sourceUrl": "https://reddit.com/r/sportsbetting",
+      "stateCode": "NY",
+      "federalTax": 2616,
+      "stateTax": 747,
+      "totalTax": 3363,
+      "netTakeHome": 7537,
+      "phantomIncomeNote": "If this bettor had $10,900 in losses elsewhere, they'd still owe $262 in 'phantom income' tax under 2026 OBBBA rules."
+    }
+  ],
+  "generatedAt": "2026-05-23T12:02:17.411Z",
+  "totalPayouts": 288380,
+  "totalTaxes": 82356
+}
