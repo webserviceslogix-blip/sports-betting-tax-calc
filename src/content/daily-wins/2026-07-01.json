@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-01",
+  "wins": [
+    {
+      "id": "win-2026-07-01-6k74k",
+      "sport": "UFC",
+      "betType": "parlay",
+      "wager": 25,
+      "payout": 14450,
+      "odds": "+57700",
+      "legs": 7,
+      "description": "7-leg parlay on Main Card Opener — $25 turned into $14,450",
+      "source": "reddit",
+      "sourceUrl": "https://reddit.com/r/sportsbetting",
+      "stateCode": "MI",
+      "federalTax": 3462,
+      "stateTax": 613,
+      "totalTax": 4075,
+      "netTakeHome": 10350,
+      "phantomIncomeNote": "If this bettor had $14,425 in losses elsewhere, they'd still owe $346 in 'phantom income' tax under 2026 OBBBA rules."
+    },
+    {
+      "id": "win-2026-07-01-p9w8a",
+      "sport": "March Madness",
+      "betType": "sgp",
+      "wager": 15,
+      "payout": 2370,
+      "odds": "+15700",
+      "legs": 7,
+      "description": "7-leg SGP on Elite 8 Matchup — $15 turned into $2,370",
+      "source": "twitter",
+      "sourceUrl": "https://x.com/sportsbetting",
+      "stateCode": "MA",
+      "federalTax": 565,
+      "stateTax": 118,
+      "totalTax": 683,
+      "netTakeHome": 1672,
+      "phantomIncomeNote": null
+    },
+    {
+      "id": "win-2026-07-01-frgm9",
+      "sport": "NBA",
+      "betType": "futures",
+      "wager": 5,
+      "payout": 550,
+      "odds": "+10900",
+      "description": "futures bet on Suns vs Mavericks — $5 turned into $550",
+      "source": "reddit",
+      "sourceUrl": "https://reddit.com/r/sportsbetting",
+      "stateCode": "OH",
+      "federalTax": 131,
+      "stateTax": 19,
+      "totalTax": 150,
+      "netTakeHome": 395,
+      "phantomIncomeNote": null
+    }
+  ],
+  "generatedAt": "2026-07-01T13:35:07.787Z",
+  "totalPayouts": 17370,
+  "totalTaxes": 4908
+}
