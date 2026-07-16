@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-16",
+  "wins": [
+    {
+      "id": "win-2026-07-16-uoxqf",
+      "sport": "NHL",
+      "betType": "sgp",
+      "wager": 500,
+      "payout": 124000,
+      "odds": "+24700",
+      "legs": 7,
+      "description": "7-leg SGP on Oilers vs Avalanche — $500 turned into $124,000",
+      "source": "twitter",
+      "sourceUrl": "https://x.com/sportsbetting",
+      "stateCode": "NJ",
+      "federalTax": 29640,
+      "stateTax": 7867,
+      "totalTax": 37507,
+      "netTakeHome": 85993,
+      "phantomIncomeNote": "If this bettor had $123,500 in losses elsewhere, they'd still owe $2,964 in 'phantom income' tax under 2026 OBBBA rules."
+    },
+    {
+      "id": "win-2026-07-16-i7yj0",
+      "sport": "NFL",
+      "betType": "futures",
+      "wager": 100,
+      "payout": 18500,
+      "odds": "+18400",
+      "description": "futures bet on Lions vs Packers — $100 turned into $18,500",
+      "source": "reddit",
+      "sourceUrl": "https://reddit.com/r/sportsbetting",
+      "stateCode": "CO",
+      "federalTax": 4416,
+      "stateTax": 810,
+      "totalTax": 5226,
+      "netTakeHome": 13174,
+      "phantomIncomeNote": "If this bettor had $18,400 in losses elsewhere, they'd still owe $442 in 'phantom income' tax under 2026 OBBBA rules."
+    },
+    {
+      "id": "win-2026-07-16-h4cr6",
+      "sport": "MLB",
+      "betType": "parlay",
+      "wager": 10,
+      "payout": 8930,
+      "odds": "+89200",
+      "legs": 6,
+      "description": "6-leg parlay on Braves vs Mets — $10 turned into $8,930",
+      "source": "reddit",
+      "sourceUrl": "https://reddit.com/r/sportsbetting",
+      "stateCode": "NV",
+      "federalTax": 2141,
+      "stateTax": 0,
+      "totalTax": 2141,
+      "netTakeHome": 6779,
+      "phantomIncomeNote": "If this bettor had $8,920 in losses elsewhere, they'd still owe $214 in 'phantom income' tax under 2026 OBBBA rules."
+    }
+  ],
+  "generatedAt": "2026-07-16T12:23:40.574Z",
+  "totalPayouts": 151430,
+  "totalTaxes": 44874
+}
