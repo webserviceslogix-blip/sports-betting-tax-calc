@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-27",
+  "wins": [
+    {
+      "id": "win-2026-08-27-4hl5k",
+      "sport": "MLB",
+      "betType": "sgp",
+      "wager": 200,
+      "payout": 45000,
+      "odds": "+22400",
+      "legs": 4,
+      "description": "4-leg SGP on Dodgers vs Padres — $200 turned into $45,000",
+      "source": "reddit",
+      "sourceUrl": "https://reddit.com/r/sportsbetting",
+      "stateCode": "VA",
+      "federalTax": 10752,
+      "stateTax": 2576,
+      "totalTax": 13328,
+      "netTakeHome": 31472,
+      "phantomIncomeNote": "If this bettor had $44,800 in losses elsewhere, they'd still owe $1,075 in 'phantom income' tax under 2026 OBBBA rules."
+    },
+    {
+      "id": "win-2026-08-27-s764t",
+      "sport": "NFL",
+      "betType": "parlay",
+      "wager": 20,
+      "payout": 14500,
+      "odds": "+72400",
+      "legs": 13,
+      "description": "13-leg parlay on Chiefs vs Bills — $20 turned into $14,500",
+      "source": "reddit",
+      "sourceUrl": "https://reddit.com/r/sportsbetting",
+      "stateCode": "AZ",
+      "federalTax": 3475,
+      "stateTax": 362,
+      "totalTax": 3837,
+      "netTakeHome": 10643,
+      "phantomIncomeNote": "If this bettor had $14,480 in losses elsewhere, they'd still owe $348 in 'phantom income' tax under 2026 OBBBA rules."
+    },
+    {
+      "id": "win-2026-08-27-49bc2",
+      "sport": "NHL",
+      "betType": "futures",
+      "wager": 50,
+      "payout": 8500,
+      "odds": "+16900",
+      "description": "futures bet on Knights vs Stars — $50 turned into $8,500",
+      "source": "twitter",
+      "sourceUrl": "https://x.com/sportsbetting",
+      "stateCode": "CA",
+      "federalTax": 2028,
+      "stateTax": 786,
+      "totalTax": 2814,
+      "netTakeHome": 5636,
+      "phantomIncomeNote": "If this bettor had $8,450 in losses elsewhere, they'd still owe $203 in 'phantom income' tax under 2026 OBBBA rules."
+    }
+  ],
+  "generatedAt": "2026-08-27T20:57:03.067Z",
+  "totalPayouts": 68000,
+  "totalTaxes": 19979
+}
