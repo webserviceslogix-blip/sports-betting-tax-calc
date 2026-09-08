@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-08",
+  "wins": [
+    {
+      "id": "win-2026-09-08-n118w",
+      "sport": "NHL",
+      "betType": "parlay",
+      "wager": 500,
+      "payout": 709000,
+      "odds": "+141700",
+      "legs": 11,
+      "description": "11-leg parlay on Rangers vs Bruins — $500 turned into $709,000",
+      "source": "twitter",
+      "sourceUrl": "https://x.com/sportsbetting",
+      "stateCode": "IL",
+      "federalTax": 170040,
+      "stateTax": 35071,
+      "totalTax": 205111,
+      "netTakeHome": 503389,
+      "phantomIncomeNote": "If this bettor had $708,500 in losses elsewhere, they'd still owe $17,004 in 'phantom income' tax under 2026 OBBBA rules."
+    },
+    {
+      "id": "win-2026-09-08-ghu37",
+      "sport": "MLB",
+      "betType": "futures",
+      "wager": 10,
+      "payout": 1250,
+      "odds": "+12400",
+      "description": "futures bet on Astros vs Rangers — $10 turned into $1,250",
+      "source": "reddit",
+      "sourceUrl": "https://reddit.com/r/sportsbetting",
+      "stateCode": "AZ",
+      "federalTax": 298,
+      "stateTax": 31,
+      "totalTax": 329,
+      "netTakeHome": 911,
+      "phantomIncomeNote": null
+    },
+    {
+      "id": "win-2026-09-08-6b5yg",
+      "sport": "NFL",
+      "betType": "straight",
+      "wager": 100,
+      "payout": 900,
+      "odds": "+800",
+      "description": "moneyline bet on 49ers vs Rams — $100 turned into $900",
+      "source": "reddit",
+      "sourceUrl": "https://reddit.com/r/sportsbetting",
+      "stateCode": "FL",
+      "federalTax": 192,
+      "stateTax": 0,
+      "totalTax": 192,
+      "netTakeHome": 608,
+      "phantomIncomeNote": null
+    }
+  ],
+  "generatedAt": "2026-09-08T15:00:53.213Z",
+  "totalPayouts": 711150,
+  "totalTaxes": 205632
+}
