@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-14",
+  "wins": [
+    {
+      "id": "win-2026-09-14-q9gt9",
+      "sport": "MLB",
+      "betType": "parlay",
+      "wager": 200,
+      "payout": 430600,
+      "odds": "+215200",
+      "legs": 6,
+      "description": "6-leg parlay on Braves vs Mets — $200 turned into $430,600",
+      "source": "reddit",
+      "sourceUrl": "https://reddit.com/r/sportsbetting",
+      "stateCode": "IL",
+      "federalTax": 103296,
+      "stateTax": 21305,
+      "totalTax": 124601,
+      "netTakeHome": 305799,
+      "phantomIncomeNote": "If this bettor had $430,400 in losses elsewhere, they'd still owe $10,330 in 'phantom income' tax under 2026 OBBBA rules."
+    },
+    {
+      "id": "win-2026-09-14-o7hij",
+      "sport": "NHL",
+      "betType": "sgp",
+      "wager": 50,
+      "payout": 5400,
+      "odds": "+10700",
+      "legs": 7,
+      "description": "7-leg SGP on Oilers vs Avalanche — $50 turned into $5,400",
+      "source": "twitter",
+      "sourceUrl": "https://x.com/sportsbetting",
+      "stateCode": "FL",
+      "federalTax": 1284,
+      "stateTax": 0,
+      "totalTax": 1284,
+      "netTakeHome": 4066,
+      "phantomIncomeNote": "If this bettor had $5,350 in losses elsewhere, they'd still owe $128 in 'phantom income' tax under 2026 OBBBA rules."
+    },
+    {
+      "id": "win-2026-09-14-0p6w1",
+      "sport": "NFL",
+      "betType": "futures",
+      "wager": 20,
+      "payout": 3700,
+      "odds": "+18400",
+      "description": "futures bet on Lions vs Packers — $20 turned into $3,700",
+      "source": "reddit",
+      "sourceUrl": "https://reddit.com/r/sportsbetting",
+      "stateCode": "PA",
+      "federalTax": 883,
+      "stateTax": 113,
+      "totalTax": 996,
+      "netTakeHome": 2684,
+      "phantomIncomeNote": null
+    }
+  ],
+  "generatedAt": "2026-09-14T16:54:09.974Z",
+  "totalPayouts": 439700,
+  "totalTaxes": 126881
+}
