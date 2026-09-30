@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-30",
+  "wins": [
+    {
+      "id": "win-2026-09-30-6uk85",
+      "sport": "MLB",
+      "betType": "parlay",
+      "wager": 25,
+      "payout": 9725,
+      "odds": "+38800",
+      "legs": 10,
+      "description": "10-leg parlay on Yankees vs Red Sox — $25 turned into $9,725",
+      "source": "reddit",
+      "sourceUrl": "https://reddit.com/r/sportsbetting",
+      "stateCode": "AZ",
+      "federalTax": 2328,
+      "stateTax": 243,
+      "totalTax": 2571,
+      "netTakeHome": 7129,
+      "phantomIncomeNote": "If this bettor had $9,700 in losses elsewhere, they'd still owe $233 in 'phantom income' tax under 2026 OBBBA rules."
+    },
+    {
+      "id": "win-2026-09-30-ey3tk",
+      "sport": "NFL",
+      "betType": "parlay",
+      "wager": 5,
+      "payout": 1315,
+      "odds": "+26200",
+      "legs": 6,
+      "description": "6-leg parlay on Ravens vs Bengals — $5 turned into $1,315",
+      "source": "reddit",
+      "sourceUrl": "https://reddit.com/r/sportsbetting",
+      "stateCode": "FL",
+      "federalTax": 314,
+      "stateTax": 0,
+      "totalTax": 314,
+      "netTakeHome": 996,
+      "phantomIncomeNote": null
+    },
+    {
+      "id": "win-2026-09-30-76s6r",
+      "sport": "NHL",
+      "betType": "straight",
+      "wager": 15,
+      "payout": 60,
+      "odds": "+300",
+      "description": "moneyline bet on Panthers vs Maple Leafs — $15 turned into $60",
+      "source": "twitter",
+      "sourceUrl": "https://x.com/sportsbetting",
+      "stateCode": "IL",
+      "federalTax": 11,
+      "stateTax": 2,
+      "totalTax": 13,
+      "netTakeHome": 32,
+      "phantomIncomeNote": null
+    }
+  ],
+  "generatedAt": "2026-09-30T16:45:07.348Z",
+  "totalPayouts": 11100,
+  "totalTaxes": 2898
+}
