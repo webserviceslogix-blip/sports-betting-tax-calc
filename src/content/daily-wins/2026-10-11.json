@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-11",
+  "wins": [
+    {
+      "id": "win-2026-10-11-mfy5d",
+      "sport": "NHL",
+      "betType": "parlay",
+      "wager": 50,
+      "payout": 24700,
+      "odds": "+49300",
+      "legs": 6,
+      "description": "6-leg parlay on Kraken vs Canucks — $50 turned into $24,700",
+      "source": "twitter",
+      "sourceUrl": "https://x.com/sportsbetting",
+      "stateCode": "PA",
+      "federalTax": 5916,
+      "stateTax": 757,
+      "totalTax": 6673,
+      "netTakeHome": 17977,
+      "phantomIncomeNote": "If this bettor had $24,650 in losses elsewhere, they'd still owe $592 in 'phantom income' tax under 2026 OBBBA rules."
+    },
+    {
+      "id": "win-2026-10-11-cm59i",
+      "sport": "NFL",
+      "betType": "sgp",
+      "wager": 20,
+      "payout": 2260,
+      "odds": "+11200",
+      "legs": 5,
+      "description": "5-leg SGP on Eagles vs Cowboys — $20 turned into $2,260",
+      "source": "reddit",
+      "sourceUrl": "https://reddit.com/r/sportsbetting",
+      "stateCode": "NV",
+      "federalTax": 538,
+      "stateTax": 0,
+      "totalTax": 538,
+      "netTakeHome": 1702,
+      "phantomIncomeNote": null
+    },
+    {
+      "id": "win-2026-10-11-ybcse",
+      "sport": "MLB",
+      "betType": "straight",
+      "wager": 200,
+      "payout": 1800,
+      "odds": "+800",
+      "description": "moneyline bet on Cubs vs Cardinals — $200 turned into $1,800",
+      "source": "reddit",
+      "sourceUrl": "https://reddit.com/r/sportsbetting",
+      "stateCode": "FL",
+      "federalTax": 384,
+      "stateTax": 0,
+      "totalTax": 384,
+      "netTakeHome": 1216,
+      "phantomIncomeNote": null
+    }
+  ],
+  "generatedAt": "2026-10-11T16:36:00.646Z",
+  "totalPayouts": 28760,
+  "totalTaxes": 7595
+}
