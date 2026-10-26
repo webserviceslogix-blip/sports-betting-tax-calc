@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-26",
+  "wins": [
+    {
+      "id": "win-2026-10-26-kw6a6",
+      "sport": "March Madness",
+      "betType": "parlay",
+      "wager": 15,
+      "payout": 10560,
+      "odds": "+70300",
+      "legs": 5,
+      "description": "5-leg parlay on First Round Upset — $15 turned into $10,560",
+      "source": "twitter",
+      "sourceUrl": "https://x.com/sportsbetting",
+      "stateCode": "CA",
+      "federalTax": 2531,
+      "stateTax": 981,
+      "totalTax": 3512,
+      "netTakeHome": 7033,
+      "phantomIncomeNote": "If this bettor had $10,545 in losses elsewhere, they'd still owe $253 in 'phantom income' tax under 2026 OBBBA rules."
+    },
+    {
+      "id": "win-2026-10-26-hlum5",
+      "sport": "NBA",
+      "betType": "sgp",
+      "wager": 5,
+      "payout": 790,
+      "odds": "+15700",
+      "legs": 5,
+      "description": "5-leg SGP on Warriors vs Nuggets — $5 turned into $790",
+      "source": "reddit",
+      "sourceUrl": "https://reddit.com/r/sportsbetting",
+      "stateCode": "AZ",
+      "federalTax": 188,
+      "stateTax": 20,
+      "totalTax": 208,
+      "netTakeHome": 577,
+      "phantomIncomeNote": null
+    },
+    {
+      "id": "win-2026-10-26-tsej7",
+      "sport": "UFC",
+      "betType": "straight",
+      "wager": 25,
+      "payout": 150,
+      "odds": "+500",
+      "description": "moneyline bet on Co-Main Event — $25 turned into $150",
+      "source": "reddit",
+      "sourceUrl": "https://reddit.com/r/sportsbetting",
+      "stateCode": "VA",
+      "federalTax": 30,
+      "stateTax": 7,
+      "totalTax": 37,
+      "netTakeHome": 88,
+      "phantomIncomeNote": null
+    }
+  ],
+  "generatedAt": "2026-10-26T17:13:25.007Z",
+  "totalPayouts": 11500,
+  "totalTaxes": 3757
+}
