@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import EmailCapture from './EmailCapture';
 
 const footerLinks = {
   tools: [
@@ -104,8 +105,13 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Email Signup */}
+        <div className="mt-10 pt-8 border-t border-gray-800 mb-8">
+          <EmailCapture variant="footer" />
+        </div>
+
         {/* Disclaimers */}
-        <div className="mt-10 pt-8 border-t border-gray-800">
+        <div className="pt-8 border-t border-gray-800">
           <div className="bg-gray-800/50 rounded-lg p-4 mb-6">
             <p className="text-xs text-gray-400 leading-relaxed">
               <strong className="text-gray-300">Tax Disclaimer:</strong> This calculator provides estimates only and is for informational and educational purposes. It is not tax, legal, or financial advice. Tax laws are complex and subject to change. Always consult a qualified tax professional (CPA, EA, or tax attorney) for advice specific to your situation. No professional-client relationship is created by using this tool.

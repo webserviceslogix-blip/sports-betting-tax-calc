@@ -1,8 +1,9 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import { calculateTax, calculateComparison, getAllStates, type FilingStatus, type TaxYear, type TaxResult } from '@/lib/tax-calculator';
+import { calculateTax, calculateComparison, getAllStates, type FilingStatus, type TaxYear } from '@/lib/tax-calculator';
 import { formatCurrency, formatPercent } from '@/lib/format';
+import EmailCapture from '@/components/ui/EmailCapture';
 
 interface TaxCalculatorProps {
   defaultState?: string;
@@ -300,6 +301,9 @@ export default function TaxCalculator({ defaultState }: TaxCalculatorProps) {
             </p>
           </div>
         )}
+
+        {/* Email Capture */}
+        <EmailCapture variant="inline" />
 
         {/* 2025 vs 2026 Comparison */}
         {showComparison && comparison && (

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import EmailCapture from "@/components/ui/EmailCapture";
 
 export const metadata: Metadata = {
   title: "Sports Betting Tax Calculator 2026 | Free Federal & State Tax Estimator",
@@ -269,6 +270,13 @@ export default function HomePage() {
           >
             Calculate My Taxes Now
           </Link>
+        </div>
+      </section>
+
+      {/* Email Capture */}
+      <section className="py-12 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <EmailCapture variant="banner" />
         </div>
       </section>
 

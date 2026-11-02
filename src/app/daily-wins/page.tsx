@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getLatestDailyWins, getAllDailyWinsDates, formatWinDate } from '@/lib/daily-wins';
 import DailyWinCard from '@/components/ui/DailyWinCard';
+import EmailCapture from '@/components/ui/EmailCapture';
 
 export const metadata: Metadata = {
   title: "Today's Biggest Sports Betting Wins + Tax Breakdown",
@@ -119,6 +120,11 @@ export default function DailyWinsPage() {
                 Calculate your phantom income
               </Link>
             </p>
+          </div>
+
+          {/* Email Capture */}
+          <div className="mt-8">
+            <EmailCapture variant="banner" />
           </div>
 
           {/* CTA */}

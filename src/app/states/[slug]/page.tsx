@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { getAllStates, getState, type StateData } from '@/lib/tax-calculator';
 import { getStateContent } from '@/data/state-content';
 import TaxCalculator from '@/components/calculators/TaxCalculator';
+import EmailCapture from '@/components/ui/EmailCapture';
 
 // Pre-render all 51 state pages at build time
 export function generateStaticParams() {
@@ -283,6 +284,11 @@ export default async function StatePage({
             {state.taxAuthorityUrl} &#8599;
           </a>
         </div>
+      </section>
+
+      {/* Email Capture */}
+      <section className="mb-12 max-w-3xl">
+        <EmailCapture variant="banner" />
       </section>
 
       {/* CTA */}
