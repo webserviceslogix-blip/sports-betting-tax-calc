@@ -90,14 +90,12 @@ export default function RootLayout({
           `}
         </Script>
 
-        {/* Google AdSense — activates when NEXT_PUBLIC_ADSENSE_PUB_ID is set */}
-        {process.env.NEXT_PUBLIC_ADSENSE_PUB_ID && (
-          <script
-            async
-            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_PUB_ID}`}
-            crossOrigin="anonymous"
-          />
-        )}
+        {/* Google AdSense */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6848158488842300"
+          crossOrigin="anonymous"
+        />
         {/* Organization Schema */}
         <script
           type="application/ld+json"

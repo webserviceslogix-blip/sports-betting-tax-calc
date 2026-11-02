@@ -8,15 +8,13 @@ interface AdSlotProps {
   className?: string;
 }
 
-// Google AdSense publisher ID — replace with yours after approval
-// Set NEXT_PUBLIC_ADSENSE_PUB_ID in your .env.local file
-const PUBLISHER_ID = process.env.NEXT_PUBLIC_ADSENSE_PUB_ID || '';
+const PUBLISHER_ID = 'ca-pub-6848158488842300';
 
 export default function AdSlot({ slot, format = 'auto', className = '' }: AdSlotProps) {
   const adRef = useRef<HTMLModElement>(null);
 
   useEffect(() => {
-    if (!PUBLISHER_ID || !adRef.current) return;
+    if (!adRef.current) return;
     try {
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       ((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({});
@@ -24,9 +22,6 @@ export default function AdSlot({ slot, format = 'auto', className = '' }: AdSlot
       // AdSense not loaded or blocked
     }
   }, []);
-
-  // Don't render anything if no publisher ID configured
-  if (!PUBLISHER_ID) return null;
 
   return (
     <div className={`ad-container my-6 ${className}`}>
