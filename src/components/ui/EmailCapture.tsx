@@ -17,30 +17,30 @@ export default function EmailCapture({ variant = 'banner', className = '' }: Ema
 
     setStatus('loading');
 
-    // TODO: Replace with your email provider's API endpoint
-    // ConvertKit example: https://api.convertkit.com/v3/forms/FORM_ID/subscribe
-    // For now, store locally and show success
     try {
-      const formId = process.env.NEXT_PUBLIC_CONVERTKIT_FORM_ID;
-      if (formId) {
-        const res = await fetch(`https://api.convertkit.com/v3/forms/${formId}/subscribe`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            api_key: process.env.NEXT_PUBLIC_CONVERTKIT_API_KEY,
-            email,
-          }),
-        });
-        if (!res.ok) throw new Error('Subscription failed');
-      }
+      const res = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
+      });
+      if (!res.ok) throw new Error('Subscription failed');
       setStatus('success');
       setEmail('');
     } catch {
-      // Still show success in dev / when no provider is configured
-      setStatus('success');
-      setEmail('');
+      setStatus('error');
+      setTimeout(() => setStatus('idle'), 3000);
     }
   };
+
+  if (status === 'error') {
+    return (
+      <div className={`rounded-xl p-6 text-center ${variant === 'footer' ? 'bg-gray-800' : 'bg-red-50 border border-red-200'} ${className}`}>
+        <p className={`font-semibold text-sm ${variant === 'footer' ? 'text-red-400' : 'text-red-800'}`}>
+          Something went wrong. Please try again.
+        </p>
+      </div>
+    );
+  }
 
   if (status === 'success') {
     return (
