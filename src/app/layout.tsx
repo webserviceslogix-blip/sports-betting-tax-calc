@@ -76,27 +76,6 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full`}
     >
       <head>
-        {/* Google tag (gtag.js) - GA4 BetTaxCalc G-RBJ67L6QQT */}
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-RBJ67L6QQT"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RBJ67L6QQT');
-          `}
-        </Script>
-
-        {/* Google AdSense */}
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6848158488842300"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
         {/* Organization Schema */}
         <script
           type="application/ld+json"
@@ -114,6 +93,25 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col bg-white antialiased">
+        {/* Google tag (gtag.js) - GA4 */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-RBJ67L6QQT"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RBJ67L6QQT');
+          `}
+        </Script>
+        {/* Google AdSense */}
+        <Script
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6848158488842300"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
         {/* Skip navigation for accessibility */}
         <a
           href="#main-content"
