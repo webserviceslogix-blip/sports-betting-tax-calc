@@ -91,10 +91,11 @@ export default function RootLayout({
         </Script>
 
         {/* Google AdSense */}
-        <script
+        <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6848158488842300"
           crossOrigin="anonymous"
+          strategy="afterInteractive"
         />
         {/* Organization Schema */}
         <script
